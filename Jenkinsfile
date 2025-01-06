@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Hello') {
+        stage('checkout source code') {
             steps {
                 git 'https://github.com/dadaramjadhav/spring-boot'
             }
