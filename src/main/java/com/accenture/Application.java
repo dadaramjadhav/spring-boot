@@ -17,4 +17,8 @@ public class Application {
 	public String welcome() {
 		return "welcome";
 	}
+		@RequestMapping("/welcome")
+	public String welcome1() {
+		return "welcome.......";
+	}
 }
